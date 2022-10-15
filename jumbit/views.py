@@ -6,4 +6,4 @@ from django.http import HttpResponse
     #return HttpResponse("<h1 style='text-align:center; color:blue'>welcome python webApp</h1>")
 
 def dashboard(request):
-    return render(request, 'dashboard.html')
+    return render(request, "dashboard.htm")
